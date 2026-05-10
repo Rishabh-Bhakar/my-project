@@ -23,6 +23,7 @@ return response.json()
 .catch(error=>{
         document.getElementById("pokemonName").innerHTML="";
     document.getElementById("pokemonImage").src="";
+    document.getElementById("pokemonType").innerHTML=""
 
     document.getElementById("pokemonError").innerHTML="Pokemon not found";
     console.log(error)
